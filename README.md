@@ -24,7 +24,7 @@ No, a trigger cannot be executed manually. Triggers are designed to be fired aut
 
 **3. What are the advantages and disadvantages of storing business logic inside the database?**
 *Advantages:* It centralizes the logic so all connected applications follow the exact same rules, reduces network latency since logic executes close to the data, and ensures high performance for complex data manipulations. 
-*Disadvantages:* It makes version control and automated testing more difficult, tightly couples the system to a specific database vendor (e.g., PostgreSQL), and can be harder to debug compared to logic in modern application backends.
+*Disadvantages:* It makes version control and automated testing more difficult, tightly couples the system to a specific database vendor (PostgreSQL), and can be harder to debug compared to logic in modern application backends.
 
 ## Bonus task 3
 ```
