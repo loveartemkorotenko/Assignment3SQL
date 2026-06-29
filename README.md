@@ -27,7 +27,7 @@ No, a trigger cannot be executed manually. Triggers are designed to be fired aut
 *Disadvantages:* It makes version control and automated testing more difficult, tightly couples the system to a specific database vendor (e.g., PostgreSQL), and can be harder to debug compared to logic in modern application backends.
 
 ## Bonus task 3
-
+```
 explain analyze
 select
     oi.order_id,
