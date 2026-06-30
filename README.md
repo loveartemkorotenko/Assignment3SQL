@@ -1,7 +1,7 @@
 # Online Store Database System
 
 ## Description
-This repository contains a PostgreSQL database schema and procedural logic for managing orders in an online store. It was created as part of Practice Assignment 3. 
+This repository contains a database schema and procedural logic for managing orders in an online store. It was created as part of Practice Assignment 3. 
 
 ## Features
 - **Data Schema:** Tables for customers, products, orders, order items, and audit logs.
