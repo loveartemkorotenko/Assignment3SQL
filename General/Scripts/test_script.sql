@@ -1,5 +1,5 @@
-INSERT INTO customers (full_name, email) VALUES ('John Smith', 'john@example.com');
-INSERT INTO customers (full_name, email) VALUES ('Anna Brown', 'anna@example.com');
+INSERT INTO customers (full_name, email) VALUES ('Akym  Slukhai', 'akymslukhai@yandex.ru');
+INSERT INTO customers (full_name, email) VALUES ('Artem Korotenko', 'eeeeemail.@mail');
 INSERT INTO products (product_name, price, stock_quantity) VALUES ('Laptop', 1200.00, 10);
 INSERT INTO products (product_name, price, stock_quantity) VALUES ('Mouse', 25.00, 100);
 
