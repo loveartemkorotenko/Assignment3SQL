@@ -56,7 +56,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 
---TASK 2: Procedure Create New Order
+--TASK 2
 CREATE OR REPLACE PROCEDURE create_order(p_customer_id int)
 LANGUAGE plpgsql AS $$
 BEGIN
@@ -69,7 +69,7 @@ BEGIN
 END;
 $$;
 
---TASK 3: Procedure Add Product to Order
+--TASK 3:
 CREATE OR REPLACE PROCEDURE add_product_to_order(
     p_order_id int,
     p_product_id int,
@@ -103,7 +103,7 @@ BEGIN
 END;
 $$;
 
---TASK 4: Trigger Update Order Total
+--TASK 4:
 CREATE OR REPLACE FUNCTION trg_update_order_total()
 RETURNS TRIGGER AS $$
 DECLARE
@@ -131,7 +131,7 @@ CREATE TRIGGER trigger_update_order_total
 AFTER INSERT OR UPDATE OR DELETE ON order_items
 FOR EACH ROW EXECUTE FUNCTION trg_update_order_total();
 
---TASK 5: Trigger Order Audit Log
+--TASK 5:
 CREATE OR REPLACE FUNCTION trg_order_audit_log()
 RETURNS TRIGGER AS $$
 BEGIN
